@@ -1,0 +1,24 @@
+/* src/App.css */
+@font-face {
+    font-family: 'Funnel';
+    src: url('/src/fonts/FunnelSans-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+  font-family: 'Proxima';
+  src: url('/src/fonts/Fontspring-DEMO-proximanova-regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
